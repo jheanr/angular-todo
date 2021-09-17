@@ -9,7 +9,7 @@ My first project using [Angular](https://angular.io), a simple todo list applica
 </p>
 
 <p>
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=6832b8&labelColor=9146ff">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=319795&labelColor=38B2AC">
 </p>
 
 ![cover](.github/cover.png?style=flat)
