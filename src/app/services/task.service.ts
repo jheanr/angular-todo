@@ -15,7 +15,8 @@ const httpOptions = {
   providedIn: 'root',
 })
 export class TaskService {
-  private apiUrl = 'https://my-json-server.typicode.com/jheanr/angular-todo';
+  private apiUrl =
+    'https://my-json-server.typicode.com/jheanr/angular-todo/tasks';
 
   constructor(private http: HttpClient) {}
 
