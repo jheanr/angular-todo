@@ -6,17 +6,17 @@ import { Task } from '../Task';
 
 const httpOptions = {
   headers: new HttpHeaders({
-    'Content-Type': 'application/json'
-  })
+    'Content-Type': 'application/json',
+  }),
 };
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class TaskService {
-  private apiUrl = 'http://localhost:3333/tasks';
+  private apiUrl = 'https://my-json-server.typicode.com/jheanr/angular-todo';
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   getTasks(): Observable<Task[]> {
     return this.http.get<Task[]>(this.apiUrl);
