@@ -1,6 +1,6 @@
 ## Todo List
 
-My first project using [Angular](https://angular.io), a simple todo list application.
+My first project using [Angular](https://angular.io), a simple todo list application. You can see a preview [here](https://angular-todos-list.vercel.app).
 
 <p>
   <a href="#technologies">Technologies</a>&nbsp;&nbsp;|&nbsp;&nbsp;
