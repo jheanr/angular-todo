@@ -1,0 +1,25 @@
+$background-color: #EDF2F7
+$task-color: #4A5568
+$date-color: #718096
+$reminder-color: #38B2AC
+
+.task
+  background: $background-color
+  border-radius: 0.25rem
+  cursor: pointer
+  margin-bottom: 1rem
+  padding: 1rem
+
+  &.reminder
+    border-left: 0.25rem solid $reminder-color
+
+  h3
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+    color: $task-color
+    margin-bottom: 0.5rem
+
+  p
+    color: $date-color
