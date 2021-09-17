@@ -1,6 +1,6 @@
 ## Project
 
-My first project using [Angular](https://angular.io), a simples todo list application.
+My first project using [Angular](https://angular.io), a simple todo list application.
 
 <p>
   <a href="#technologies">Technologies</a>&nbsp;&nbsp;|&nbsp;&nbsp;
