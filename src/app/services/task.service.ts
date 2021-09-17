@@ -7,6 +7,7 @@ import { Task } from '../Task';
 const httpOptions = {
   headers: new HttpHeaders({
     'Content-Type': 'application/json',
+    'Access-Control-Allow-Origin': '*',
   }),
 };
 
@@ -19,7 +20,7 @@ export class TaskService {
   constructor(private http: HttpClient) {}
 
   getTasks(): Observable<Task[]> {
-    return this.http.get<Task[]>(this.apiUrl);
+    return this.http.get<Task[]>(this.apiUrl, httpOptions);
   }
 
   deleteTask(task: Task): Observable<Task> {
